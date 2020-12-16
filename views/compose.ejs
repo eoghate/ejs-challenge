@@ -1,0 +1,24 @@
+<%-include("partials/header")-%>
+<h1>Compose</h1>
+
+<form class="" action="/compose" method="post">
+  <div class="form-group">
+    <label>Title</label> <!-- style = "margin-bottom: 10px" can be applied or the form group can be used to achieve the separateness-->
+    <input type="text" class="form-control inputarea" placeholder="Text input" name="myPostTitle">
+    <label>Post</label>
+    <textarea type = "text" class="form-control textarea" rows="8"  name="myPostBody"></textarea>
+
+  </div>
+  <button type="button" class="btn btn-primary" name="publisher">Publish</button>
+</form>
+
+
+
+
+
+
+
+
+
+
+<%-include("partials/footer")-%>
